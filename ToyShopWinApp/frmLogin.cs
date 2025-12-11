@@ -55,7 +55,7 @@ namespace ToyShopWinApp
             this.lblUser.AutoSize = true;
             this.lblUser.Location = new System.Drawing.Point(36, 9);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(87, 20);
+            this.lblUser.Size = new System.Drawing.Size(73, 16);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "Username:";
             this.lblUser.Click += new System.EventHandler(this.lblUser_Click);
@@ -65,7 +65,7 @@ namespace ToyShopWinApp
             this.lblPass.AutoSize = true;
             this.lblPass.Location = new System.Drawing.Point(36, 47);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(82, 20);
+            this.lblPass.Size = new System.Drawing.Size(70, 16);
             this.lblPass.TabIndex = 1;
             this.lblPass.Text = "Password:";
             // 
@@ -73,14 +73,14 @@ namespace ToyShopWinApp
             // 
             this.txtUsername.Location = new System.Drawing.Point(153, 6);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(100, 26);
+            this.txtUsername.Size = new System.Drawing.Size(100, 22);
             this.txtUsername.TabIndex = 2;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(153, 47);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 26);
+            this.txtPassword.Size = new System.Drawing.Size(100, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // btnLogin
@@ -103,7 +103,7 @@ namespace ToyShopWinApp
             // 
             // frmLogin
             // 
-            this.ClientSize = new System.Drawing.Size(746, 244);
+            this.ClientSize = new System.Drawing.Size(298, 179);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
